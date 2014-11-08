@@ -3,7 +3,8 @@
 
 #include "JoystickDriver.c"  //Include file to "handle" the Bluetooth® messages.
 
-bool safety_drive_motors = true; /* Safety for drive motors to stop if the reach zero */
+bool safety_drive_motors = true; /* Safety for drive motors to stop if the value for 
+                                    the controllers reach zero */
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 //
